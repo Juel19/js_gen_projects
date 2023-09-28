@@ -1,0 +1,56 @@
+
+body{
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aerrow{
+  width: 30px;
+  height: 30px;
+}
+.right{
+  transform: rotate(180deg);
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.frame{
+  width: 270px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slider{
+  display: flex;
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/*  */
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 3px;
+} 
+.active{
+  background-color: white;
+}
+
